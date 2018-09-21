@@ -1,3 +1,2 @@
-# caping
-Nuyul Coin apk CAPING
-# Sertakan sumber :) 
+# Nuyul Caping
+# Gunakan Dengan Bijak :)
