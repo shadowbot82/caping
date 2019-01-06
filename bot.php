@@ -11,9 +11,9 @@ sleep($wait);
 $x++;
 flush();
 echo "Suksess";
-else {
-echo "Gagal";
-}
+
+
+
 }
 
 function video($token,$jml,$wait){
@@ -25,6 +25,10 @@ function video($token,$jml,$wait){
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
         $result=curl_exec($ch);
         return $result;
+        sleep($wait);
+        $x++;
+        flush();
+        
         }
         
 ?>
