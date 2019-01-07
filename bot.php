@@ -20,7 +20,7 @@ while(1){
       $headers[] = "User-Agent: Mozilla/5.0 (Linux; U; Android 5.1; in-id; B11 Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30";
       $headers[] = "Content-Type: application/x-www-form-urlencoded";
       $headers[] = "Content-Length: 759"
-      $headers[] = "Host : api.yogopro.com";
+      $headers[] = "Host: api.yogopro.com";
       $headers[] = "Connection: Keep-Alive";
       $headers[] = "Accept-Encoding: gzip";
       $headers[] = "Cache-Control: no-cache";
