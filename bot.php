@@ -10,9 +10,7 @@ $uuid = trim(fgets(STDIN));
 
 while(1){
    $ch = curl_init();
-   $rand = (1, 99999999);
-   $body = "OSVersion='.$rand.'&content_id='.$rand.'&deviceCode={"Gravity":"false","cpuCore":"4","deviceId":$rand,"cpuFreq":"0M 四核","ModelName":"B11","gps":"true","ModelBrand":"SPRD","Manufacturer":"SPRD","Display:".$rand."MemorySize":"1G","MacAddress":null}&imei=$rand&isemu=$rand&lang=in-ID&market=googleplay&phoneBrand=SPRD&pushType=getui&sign=$sign&smdid=$rand&time=$rand&tk=$tk&token=$token&uuid=$uuid&version=$rand&versionName=1.4.0&wifi=3G";
-      curl_setopt($ch, CURLOPT_URL, "https://api.yogopro.com/api/reward/watchVideo");
+           $body = 'token='.$token.'sign='.$sign.'tk='.$tk.'uuid='.$uuid;
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
       curl_setopt($ch, CURLOPT_POSTFIELDS, $body);
       curl_setopt($ch, CURLOPT_POST, 1);
